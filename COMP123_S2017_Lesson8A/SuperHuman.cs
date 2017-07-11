@@ -42,5 +42,9 @@ namespace COMP123_S2017_Lesson8A
             this._powers = new List<Power>();
         }
         //PUBLIC Methods
+        public void AddPower(string name, int rank)
+        {
+            this.Powers.Add(new Power(name, rank));
+        }
     }
 }

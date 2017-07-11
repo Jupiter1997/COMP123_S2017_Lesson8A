@@ -16,7 +16,7 @@ namespace COMP123_S2017_Lesson8A
         static void Main(string[] args)
         {
             SuperHuman superhuman = new SuperHuman("Damn Man");
-            superhuman.Powers.Add(new Power());
+            superhuman.Powers.Add(new Power("KAMEHAMEHA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",90000));
         }
     }
 }
