@@ -19,7 +19,13 @@ namespace COMP123_S2017_Lesson8A
         //PRIVATE FIELDS(INSTANCE VARIABLES)
         private List<Power> _powers;
         //PUBLIC PROPERTIES
-
+        public List<Power> Powers
+        {
+            get
+            {
+                return _powers;
+            }
+        }
         //CONSTRUSTERS--->
 
         public SuperHuman(string name)
