@@ -7,8 +7,7 @@ using System.Text;
  * Date: July 11, 2017
  * Description: Abstarct Class Human which other sub class will derived from
  * 
- * 
- * /
+ * */
 namespace COMP123_S2017_Lesson8A
 {
     /// <summary>
