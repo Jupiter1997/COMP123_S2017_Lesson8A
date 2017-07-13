@@ -6,7 +6,7 @@ using System.Text;
  * Name: Marvin Jupiter Vargas
  * Date: July 11, 2017
  * Description:This is a super Human sub class
- * Version: 0.2 - Added Private Initialize Method
+ * Version: 0.5 - Added the overideeen to string method
  * */
 namespace COMP123_S2017_Lesson8A
 {
@@ -46,5 +46,31 @@ namespace COMP123_S2017_Lesson8A
         {
             this.Powers.Add(new Power(name, rank));
         }
+        public void DisplayPowers()
+        {
+            foreach (var power in Powers)
+            {
+                Console.WriteLine("{0} {1}",power.Name,power.Rank);
+            }
+        }
+        /// <summary>
+        /// The ToString method overrides the built-in Object.ToString method
+        /// it outputs a string that displays the super human's name and power
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            string outputString = "";
+            outputString += "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n";
+            outputString += "Super Human Name:" + this.Name + "\n";
+            outputString += "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n";
+                foreach (Power power in this.Powers)
+            {
+                outputString += "Power: " + power.Name + "Rank: " + power.Rank + "\n"; 
+            }
+            outputString += "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n";
+            return outputString;
+        }
     }
+   
 }
