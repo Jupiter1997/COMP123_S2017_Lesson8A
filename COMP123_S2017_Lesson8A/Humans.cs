@@ -35,5 +35,10 @@ namespace COMP123_S2017_Lesson8A
         {
             this.Name = name;
         }
+        //PUBLIC METHODS
+        //PUBLIC ABSTRACT METHOD
+        public abstract void DisplaySkills()
+        { }
+
     }
 }

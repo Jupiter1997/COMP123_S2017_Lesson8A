@@ -6,7 +6,7 @@ using System.Text;
  * Name: Marvin Jupiter Vargas
  * Date: July 11, 2017
  * Description:This is a super Human sub class
- * Version: 0.6 - modify to string method to strong to a space
+ * Version: 0.7 - override void display skills
  * */
 namespace COMP123_S2017_Lesson8A
 {
@@ -71,6 +71,16 @@ namespace COMP123_S2017_Lesson8A
             outputString += "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n";
             return outputString;
         }
+        /// <summary>
+        /// This method overrides the human abstarct superclass Display Method 
+        /// this method will dispay a list of skills
+        /// </summary>
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not Implemented");
+        }
+
+       
     }
    
 }
