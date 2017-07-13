@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Humans.cs" />
     <Compile Include="IHasKarma.cs" />
+    <Compile Include="IHasMalice.cs" />
     <Compile Include="Power.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
