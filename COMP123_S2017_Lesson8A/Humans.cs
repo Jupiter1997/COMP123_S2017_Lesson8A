@@ -37,8 +37,8 @@ namespace COMP123_S2017_Lesson8A
         }
         //PUBLIC METHODS
         //PUBLIC ABSTRACT METHOD
-        public abstract void DisplaySkills()
-        { }
+        public abstract void DisplaySkills();
+        
 
     }
 }
