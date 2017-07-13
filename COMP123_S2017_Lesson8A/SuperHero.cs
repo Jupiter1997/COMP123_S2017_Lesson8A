@@ -33,7 +33,7 @@ namespace COMP123_S2017_Lesson8A
         //CONSTRUCTERS
         /// <summary>
         /// This is the main constructer for the super hero class
-        /// it takes one argument name(string) and karma(int)
+        /// it takes two argument name(string) and karma(int)
         /// </summary>
         /// <param name="name"></param>
         /// <param name="karma"></param>
