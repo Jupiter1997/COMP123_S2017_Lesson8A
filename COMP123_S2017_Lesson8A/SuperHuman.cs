@@ -6,7 +6,7 @@ using System.Text;
  * Name: Marvin Jupiter Vargas
  * Date: July 11, 2017
  * Description:This is a super Human sub class
- * Version: 0.5 - Added the overideeen to string method
+ * Version: 0.6 - modify to string method to strong to a space
  * */
 namespace COMP123_S2017_Lesson8A
 {
@@ -66,7 +66,7 @@ namespace COMP123_S2017_Lesson8A
             outputString += "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n";
                 foreach (Power power in this.Powers)
             {
-                outputString += "Power: " + power.Name + "Rank: " + power.Rank + "\n"; 
+                outputString += "Power: " + power.Name + " Rank: " + power.Rank + "\n"; 
             }
             outputString += "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n";
             return outputString;
