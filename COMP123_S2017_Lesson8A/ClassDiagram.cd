@@ -36,6 +36,13 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="COMP123_S2017_Lesson8A.SuperVillain">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuperVillain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="COMP123_S2017_Lesson8A.IHasKarma">
     <Position X="8.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
