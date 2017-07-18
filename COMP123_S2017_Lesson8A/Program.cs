@@ -19,6 +19,21 @@ namespace COMP123_S2017_Lesson8A
             superhuman.Powers.Add(new Power("KAMEHAMEHA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",90000));
             superhuman.Powers.Add(new Power("Haduken", 60));
             Console.WriteLine(superhuman.ToString());
+            Console.WriteLine("Karma: ");
+
+
+         
+
+            SuperVillain supervillain = new SuperVillain("Uncanny Canadian", 86);
+            supervillain.AddPower("Axe Hand", 39);
+            supervillain.AddPower("Lumberjack Spirit", 15);
+            Console.WriteLine(supervillain.ToString());
+            Console.WriteLine("Malice: " + supervillain.Malice);
+
+            if (supervillain is IHasMalice)
+            {
+                Console.WriteLine("Im Awesome");
+            }
         }
 
     }

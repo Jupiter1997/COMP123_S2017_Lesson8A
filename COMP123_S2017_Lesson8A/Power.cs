@@ -30,5 +30,27 @@ namespace COMP123_S2017_Lesson8A
             this.Name = name;
             this.Rank = rank;
         }
+        //Overloaded Methods
+        /// <summary>
+        /// This method overloads the > operator for the power class
+        /// </summary>
+        /// <param name="lhs"></param>
+        /// <param name="rhs"></param>
+        /// <returns>Return the Power that is greater</returns>
+        public static Power operator > (Power lhs, Power rhs)
+        {
+
+            return (lhs.Rank > rhs.Rank) ? lhs : rhs;
+        }
+        /// <summary>
+        /// This method overloads the < operator for the power class
+        /// </summary>
+        /// <param name="lhs"></param>
+        /// <param name="rhs"></param>
+        /// <returns>Return the Power that is greater</returns>
+        public static Power operator < (Power lhs, Power rhs)
+        {
+            return (lhs.Rank < rhs.Rank) ? lhs : rhs;
+        }
     }
 }
