@@ -6,7 +6,7 @@ using System.Text;
  * Name: Marvin Jupiter Vargas
  * Date: July 11, 2017
  * Description:This is a super Human sub class
- * Version: 0.7 - override void display skills
+ * Version: 0.9 - override void display skills
  * */
 namespace COMP123_S2017_Lesson8A
 {
@@ -40,6 +40,30 @@ namespace COMP123_S2017_Lesson8A
         private void _initialize()
         {
             this._powers = new List<Power>();
+        }
+        /// <summary>
+        /// This private returnd the index of the power if found
+        /// ifnot found returns -1
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns>This returns a n interher related to index</returns>
+        private int _findPower(string name)
+        {
+            int index = 0;
+            foreach (Power power in this.Powers)
+            {
+                if (name.Equals(power.Name))
+                {
+                    break;
+                }
+                index++;
+                if (this.Powers.Count == index )
+                {
+                    index = -1;
+                }
+                
+            }
+            return index;
         }
         //PUBLIC Methods
         public void AddPower(string name, int rank)

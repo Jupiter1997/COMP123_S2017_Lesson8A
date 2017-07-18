@@ -34,6 +34,8 @@ namespace COMP123_S2017_Lesson8A
             {
                 Console.WriteLine("Im Awesome");
             }
+            Console.WriteLine(supervillain._findPower("Lsda")); 
+           
         }
 
     }
